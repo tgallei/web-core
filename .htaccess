@@ -1,0 +1,10 @@
+#ErrorDocument 401 /index.php?p=error&code=401
+#ErrorDocument 403 /index.php?p=error404
+ErrorDocument 404 /index.php?p=error404
+#ErrorDocument 500 /index.php?p=error&code=500
+
+Options -Indexes
+RewriteEngine on
+
+RewriteRule		^$							              index.php?p=home
+RewriteRule		^home$						              index.php?p=home

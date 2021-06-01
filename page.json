@@ -1,0 +1,6 @@
+{
+    "pages": [
+        {"url": "home", "title": "Home", "tpls": "Home"},
+        {"url": "error404", "title": "Page not Found", "tpls": "Erro404"}
+    ]
+}
