@@ -1,7 +1,6 @@
 <?php
 if(!defined('index')) die();
 
-require_once(coreDir.'system/core.functions.php');
 require_once(coreDir.'system/CORE.class.php');
 
 require_once(coreDir.'system/exception/SystemException.class.php');
